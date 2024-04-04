@@ -208,7 +208,9 @@ except Exception as error:
 
 ## Introducción 
 
-La interfaz de programación para documentos XML y HTML es el DOM (Document Object Model). Explica la lógica de organización de documentos y cómo se accede y manipula dinámicamente su contenido. En XML, el DOM estructura los elementos del documento en forma de árbol de nodos, con cada nodo representando un elemento, atributo o texto en el documento.
+La interfaz de programación para documentos XML y HTML es el DOM (Document Object Model). Explica la lógica de organización de documentos y cómo se accede y manipula dinámicamente su contenido. En XML, el DOM estructura los elementos del documento en forma de árbol de nodos, con cada nodo representando un elemento, atributo o texto en el documento. Se puede hacer con Python, java y otros.
+
+![foto](https://image.slidesharecdn.com/understandingxmldom-120525121552-phpapp02/95/understanding-xml-dom-6-728.jpg?cb=1337948557)
 
 ### Pagina de referencia 
 
