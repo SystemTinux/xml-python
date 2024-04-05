@@ -43,7 +43,38 @@ XML (Extensible Markup Language) fue creado para almacenar y transportar datos d
 
 ***
 ***
+# HTML
 
+## Porqué estudiar HTML
+El lenguaje HTML es potente y puede usarse para diseñar sitios web atractivos y prácticos. Proporciona la estructura para añadir CSS y JavaScript, sirviendo como base de cualquier sitio web. Aprender HTML te ayudará a comprender mejor la construcción y funcionamiento de las páginas web.
+
+
+## Introducción 
+El lenguaje estándar utilizado para crear páginas web es HTML (HyperText Markup Language). Se utiliza etiquetas para estructurar el contenido de una página web. 
+[Web]([https://www.w3schools.com/xml/xml_whatis.asp](https://www.w3schools.com/html/default.asp))
+
+## Sintaxis Básica
+- <head>: Incluye datos sobre el archivo.
+- <title>: Explique el nombre de la página.
+- <body>: Incluye lo que se puede ver en la página.
+- <h1>, <h2>, <p>, etc.: Etiquetas utilizadas para títulos, párrafos y otros elementos de contenido.
+
+## Ejemplo
+```html
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Título de la Página</title>
+  </head>
+  <body>
+    <h1>Encabezado Principal</h1>
+    <p>Este es un párrafo.</p>
+  </body>
+</html>
+```
+
+***
+***
 
 
 # Python
@@ -255,9 +286,41 @@ elemento.setAttribute("atributo", "nuevo_valor")
 elemento_padre.removeChild(elemento_hijo)
 ```
 
+***
+***
 
+# XPath
 
+## Introducción
+Es un lenguaje utilizado para navegar y seleccionar elementos en un documento XML. Es comúnmente utilizado en web scraping y procesamiento de documentos XML.
+[XPath]([https://docs.python.org/3/library/xml.dom.html](https://www.w3schools.com/xml/xpath_intro.asp))
 
+## Sintaxis básica
+- /: Selecciona el nodo raíz.
+- //: Selecciona nodos en cualquier lugar del documento.
+- [@atributo]: Selecciona elementos con un atributo específico.
+- text(): Selecciona el texto de un elemento.
+
+***
+***
+
+# XSLT
+
+## Introdución
+XSLT (Extensible Stylesheet Language Transformations) es un lenguaje utilizado para transformar documentos XML en otros formatos, como HTML o XML. Utiliza plantillas y reglas de coincidencia para definir las transformaciones. 
+
+## Ejemplo
+```XSLT
+<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+  <xsl:template match="/">
+    <html>
+      <body>
+        <h1>Salida HTML</h1>
+      </body>
+    </html>
+  </xsl:template>
+</xsl:stylesheet>
+```
 
 
 
